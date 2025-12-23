@@ -1,0 +1,76 @@
+body{
+    background-color: indigo;
+    text-align: center;
+    margin: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: chocolate;
+    padding-right: 5px;
+}
+p:hover{
+    color: burlywood;
+    transition-duration: 0.4s;
+    cursor: default;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: chocolate;
+    padding-right: 5px;
+}
+a:hover{
+    color: chartreuse;
+    transition-duration: 0.4px;
+    cursor: pointer;
+}
+a:active{
+    color: black;
+    transition-duration: 0s;
+    cursor: wait;
+}
+img[src="Christmas Tree.png"]:hover{
+    width: 292px;
+    height: 257px;
+    transition-duration: 0.4s;
+    cursor: default;
+}
+img[src="Modern Christmas Sweater.png"]:hover{
+    width: 292px;
+    height: 190px;
+    transition-duration: 0.4s;
+    cursor: default;
+}
+img[src="Candy Cane.png"]:hover{
+    width: 292px;
+    height: 257px;
+    transition-duration: 0.4px;
+    cursor: default;
+}
+img[src="Christmas Ornament.png"]:hover{
+    width: 292px;
+    height: 257px;
+    transition-duration: 0.4px;
+    cursor: default;
+}
+img[src="Christmas Sock.png"]:hover{
+    width: 292px;
+    height: 292px;
+    transition-duration: 0.4s;
+    cursor: default;
+}
+footer{
+    background-color: brown;
+    height: 102px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+footer:hover{
+    cursor: default;
+    background-color: firebrick;
+}
